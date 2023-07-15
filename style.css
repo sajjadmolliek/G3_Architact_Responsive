@@ -34,11 +34,13 @@ nav{
 .nav_logo{
     font-size: 2.8rem;
     font-weight: 700;
+    margin: 20px 0px;
     color: #131313;
 }
 .nav_link ul{
     display: flex;
     justify-content: space-around;
+    margin:20px 0px;
 }
 .nav_link ul li{
     list-style: none;
@@ -64,9 +66,11 @@ nav{
     font-size: 4rem;
     color: #131313;
     font-weight: 700;
+    margin: 20px 0;
 }
 .section_01_discription{
     color: #727272;
+    margin: 20px 0;
 }
 .section_01_banner img{
     margin-top: 20px;
@@ -81,12 +85,93 @@ nav{
 
 
 
+/* Main Section Style Start */
+main{
+    max-width: 1458px;
+    margin: 0 auto;
+}
+/* Section_02 Style Start */
+.section_02{
+    display: flex;
+    align-items: center;
+    margin: 6rem 0;
+}
+.section_02_collage{
+    display: grid;
+    grid-template-columns: repeat(2,21rem);
+    gap: 1.5rem;
+}
+.section_02_content{
+    margin-left: 4rem;
+}
+.section_02_content p{
+    margin:40px 0 20px 0;
+}
+.section_02_content h1{
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+}
+.sp_01{
+    font-weight: 700;
+    color: black;
+}
+.sp_02{
+    color: #FF900E;
+    font-weight: 700;
+}
+/* Section_02 Style End */
+/* Section_03 Style Start */
+.section_03{
+    display: flex;
+    justify-content:space-between;
+    gap:100px;
+    margin: 50px;
+}
+.section_03_features>h1{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+.section_03_features>p{
+    color: #727272;
+    margin: 40px 0 20px 0;
+}
+.section_03_div{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.section_03_div>h4{
+    margin: 20px 0 20px 0;
+}
+.exprience{
+    text-align: center;
+    padding: 45px;
+    margin-top: -90px;
+}
+.exprience>.spn3{
+    font-size: 65px;
+    display: block;
+}
+/* Section_03 Style End */
+/* Main Section Style Main */
+
+
+
+
+
+
 
 
 /* -------------------------------------------- @media For Mobile screen Style------------------------------------------------ */
     
 @media screen and (max-width:576px) {
-    /* Header Section Style */
+    /* Header Section Style Start */
     header{
         padding: 20px;
     }
@@ -108,6 +193,40 @@ nav{
     .section_01_discription {
         margin: 20px 0;
     }
+    /* Header Section Style End */
+
+
+
+
+
+    /* Main Section Style Start */
+    /* Section_02 Style Start */
+    .section_02{
+        flex-direction: column;
+    }
+    .section_02_collage{
+        grid-template-columns: 345px;
+    }
+    .section_02_content{
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    /* Section_02 Style End */
+    /* Section_03 Style Start */
+    .section_03{
+        gap: 0;
+        flex-direction: column;
+    }
+    .section_03_image>img{
+        width:75vw;
+        margin-bottom: 10px;
+    }
+    .exprience{
+        margin-top: 0px;
+    }
+
+    /* Section_03 Style End */
+    /* Main Section Style Main */
 }
 
 
@@ -143,7 +262,38 @@ nav{
     .section_01_discription {
         margin: 20px 0;
     }
+    /* Header Section Style End */
+
+
+
+
+    /* Main Section Style Start */
+    /* Section_02 Style Start */
+    .section_02{
+        flex-direction: column;
+    }
+    .section_02_content{
+        margin-top: 2rem;
+    }
+    /* Section_02 Style End */
+    /* Section_03 Style Start */
+    .section_03{
+        gap: 0;
+        flex-direction: column;
+    }
+    .section_03_image>img{
+        width:88vw;
+        margin-bottom: 10px;
+    }
+    .exprience{
+        margin-top: 0px;
+        margin-left: 25%;
+    }
+
+    /* Section_03 Style End */    
+    /* Main Section Style Main */
 }
+
 
 
 
