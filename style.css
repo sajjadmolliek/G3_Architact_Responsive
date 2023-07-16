@@ -54,9 +54,6 @@ nav{
 }
 /* <!-- Navbar Section End --> */
 /* <!-- Section_1_banner Style Start --> */
-.section_01_banner{
-
-}
 .section_01_banner_content{
     max-width: 800px;
     text-align: center;
@@ -225,6 +222,9 @@ main{
     .section_01_discription {
         margin: 20px 0;
     }
+    .section_01_banner_title{
+        font-size: 2rem;
+    }
     /* Header Section Style End */
 
 
@@ -301,6 +301,9 @@ main{
     }
     .section_01_discription {
         margin: 20px 0;
+    }
+    .section_01_banner_title{
+        font-size: 2rem;
     }
     /* Header Section Style End */
 
